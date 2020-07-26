@@ -9,5 +9,6 @@ or giving up static type-safety.
 
 # Languages
 
+* [C++](cpp/main.cpp)
 * [Haskell](haskell/Main.hs)
 * [Rust](rust/main.rs)

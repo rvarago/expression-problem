@@ -5,6 +5,7 @@ BIN_NAME=Main.linux
 all: build
 
 build:
+	@$(MAKE) BIN_NAME=$(BIN_NAME) $@ -C cpp
 	@$(MAKE) BIN_NAME=$(BIN_NAME) $@ -C haskell
 	@$(MAKE) BIN_NAME=$(BIN_NAME) $@ -C rust
 
